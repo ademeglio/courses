@@ -23,9 +23,9 @@ Not an annotation but important to define:
   * [x] import through your Eclipse package explorer
 
 ### Classes to build
-  * [ ] `Course`:
-	* [ ] contains 	`String` object properties for `id`, `name`, and `description`
-	* [ ] contains appropriate constructor, and getters
+  * [x] `Course`:
+	* [x] contains 	`String` object properties for `id`, `name`, and `description`
+	* [WIP] contains appropriate constructor, and getters
   * [ ] `CourseRepository`:
 	* [ ] Creates 3 courses and puts them into the map we can use:
 	  * [ ] `spring`, `Spring Framework`, `Spring Frameword Description`
