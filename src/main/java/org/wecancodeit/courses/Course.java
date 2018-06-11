@@ -3,21 +3,33 @@ package org.wecancodeit.courses;
 public class Course {
 
 	private long id;
-	private String courseName;
-	private String courseDescription;
-	private String courseInstructor;
+	private String name;
+	private String description;
+	private String instructor;
 
 	// Constructor
 	public Course(long courseId, String courseName, String courseDescription, String courseInstructor) {
 		this.id = courseId;
-		this.courseName = courseName;
-		this.courseDescription = courseDescription;
-		this.courseInstructor = courseInstructor;
+		this.name = courseName;
+		this.description = courseDescription;
+		this.instructor = courseInstructor;
 	}
 
 	// Getters
 	public Long getId() {
 		return id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public String getDescription() {
+		return description;
+	}
+	
+	public String getInstructor() {
+		return instructor;
 	}
 
 }  // End Course()

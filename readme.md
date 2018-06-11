@@ -25,15 +25,15 @@ Not an annotation but important to define:
 ### Classes to build
   * [x] `Course`:
 	* [x] contains 	`String` object properties for `id`, `name`, and `description`
-	* [WIP] contains appropriate constructor, and getters
+	* [x] contains appropriate constructor, and getters
   * [x] `CourseRepository`:
 	* [x] Creates 3 courses and puts them into the map we can use:
 	  * [x] `spring`, `Spring Framework`, `Spring Frameword Description`
 	  * [x] `java`, `Core Java`, `Core Java Description`
 	  * [x] `javascript`, `Intro to Javascript`, `Javascript Description` - contains the ability to access the entire map’s collection of courses or one course in the map
   * `CourseController`: The Controller class to handle HTTP requests
-	* [WIP] Give user the ability to see all courses offered in the application
-	* [WIP] Give user the ability to navigate into one of the courses for the details of the course
+	* [x] Give user the ability to see all courses offered in the application
+	* [x] Give user the ability to navigate into one of the courses for the details of the course
   * [x] An Application class that will already be built out using the Spring Initializr
 
 ### Resources to build
@@ -93,4 +93,4 @@ In the **templates package**, create course.html and paste the following code sn
 </html>
 ```
 ## Stretch Tasks
-  * Add a 4th param (instructor) to the course and show this information in the front end of your application
+  * [x] Add a 4th param (instructor) to the course and show this information in the front end of your application
